@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/css/heroic-features.css}" rel="stylesheet">
+</head>
+<body>
+<!--<p th:text=${mensaje}></p>-->
+<div th:fragment="header">
+    <div class="navbar">
+        <a href="/">Rentas</a>
+        <a href="/documentos">Documentos</a>
+        <a href="#">Inicio</a>
+    </div>
+</div>
+<script th:src="@{/vendor/jquery/jquery.min.js}"></script>
+<script th:src="@{/vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
